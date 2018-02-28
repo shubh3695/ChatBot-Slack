@@ -1,5 +1,11 @@
 import json, requests
 
+'''
+
+@author ssaxena36
+
+'''
+
 class Currency(object):
     def __init__(self):
         self.bases = "Valid Bases:\n ['HKD', 'HRK', 'CHF', 'HUF', 'THB', 'SGD', 'CNY', 'BRL',\n'INR', 'ZAR', 'ILS', 'EUR', 'JPY', 'ISK', 'MXN', 'NOK',\n'AUD', 'RUB', 'NZD', 'PLN', 'CZK', 'CAD', 'IDR', 'DKK',\n'BGN', 'MYR', 'GBP', 'TRY', 'KRW', 'SEK', 'RON', 'PHP']"

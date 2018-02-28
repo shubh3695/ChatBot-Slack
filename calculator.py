@@ -1,3 +1,9 @@
+'''
+
+@author ssaxena36
+
+'''
+
 class Calculator(object):
     def __init__(self, a, b, op):
         self.a, self.b, self.c = a, b, op

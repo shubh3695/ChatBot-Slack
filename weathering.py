@@ -1,4 +1,11 @@
 from weather import Weather
+
+'''
+
+@author ssaxena36
+
+'''
+
 class Weathering(object):
     def __init__(self):
         pass

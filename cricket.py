@@ -1,5 +1,10 @@
 from pycricbuzz import Cricbuzz
 
+'''
+
+@author ssaxena36
+
+'''
 
 class Cricket(object):
     def __init__(self):

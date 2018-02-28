@@ -1,5 +1,12 @@
 from random import randint
 import calculator, cricket, fixer, wordmeaning, news, moviedets, lyric, weathering
+
+'''
+
+@author ssaxena36
+
+'''
+
 class Command(object):
     def __init__(self):
         self.commander = ""

@@ -1,6 +1,11 @@
 import requests
 import json
 
+'''
+
+@author ssaxena36
+
+'''
 
 class News(object):
     def __init__(self):

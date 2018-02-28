@@ -1,5 +1,11 @@
 import command
  
+'''
+
+@author ssaxena36
+
+'''
+
 class Event:
     def __init__(self, bot):
         self.bot = bot
