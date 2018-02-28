@@ -6,7 +6,9 @@ Api Reference from: https://api.slack.com/bot-users
 <br><br>
 <b><u>Applications:</u></b>
 <br>
-
+1. Calculator <br>
+    Example: @Py3bot calculate 23 * 34
+<br>
 2. Cricket Score<br>
     Example: @Py3bot cricscore
 <br>
