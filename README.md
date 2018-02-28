@@ -3,12 +3,12 @@
 </p>
 <br>
 <p style="text-align:center;">
-<img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' height="100px" width="200px" alt="Main Logo"/>
+<center><img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' height="100px" width="200px" alt="Main Logo"/></center>
 </p>
 A Slack based Chat Bot operating different Custom Entertainment Functions
 <br><br>
 <b><u>Api</b></u>
-Api Reference from: https://api.slack.com/bot-users
+ Reference from: https://api.slack.com/bot-users
 <br><br>
 <b><u>Applications:</u></b>
 <br>
