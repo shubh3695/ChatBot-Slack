@@ -1,10 +1,6 @@
-<p style="text-align:center;">
 <h1> Slack-ChatBot</h1>
-</p>
 <br>
-<p style="text-align:center;">
-<center><img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' height="100px" width="200px" alt="Main Logo"/></center>
-</p>
+<img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' height="100px" width="200px" alt="Main Logo"/>
 A Slack based Chat Bot operating different Custom Entertainment Functions
 <br><br>
 <b><u>Api</b></u>
