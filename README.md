@@ -13,5 +13,7 @@ Api Reference from: https://api.slack.com/bot-users
 5. Get Top TV Series, Movies, Search from IMDB Example: @Py3bot imdb search Thor
 6. Get Song Lyrics Example: @Py3bot lyrics maroon 5 , wait 
 7. Location Weather Example: @Py3bot weather Lucknow
-8. More to come...Interactive AI, Youtube downloader etc..
+8. Currency Conversion Example: @Py3bot currency USD to EUR
+9. For all commands ExampleL @Py3bot help
+10. More to come...Interactive AI, Youtube downloader etc..
 <br>
