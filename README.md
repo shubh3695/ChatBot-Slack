@@ -3,7 +3,7 @@
 </p>
 <br>
 <p style="text-align:center;">
-<img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' weight="100" height="200" alt="Main Logo"/>
+<img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/slack-logo.png' height="100px" width="200px" alt="Main Logo"/>
 </p>
 A Slack based Chat Bot operating different Custom Entertainment Functions
 <br><br>
@@ -23,6 +23,8 @@ Api Reference from: https://api.slack.com/bot-users
 9. For all commands ExampleL @Py3bot help<br>
 10. More to come...Interactive AI, Youtube downloader etc.
 <br>
+<br>
 <p style="text-align:center;">
+  <h1>Demo</h1>
 <img src='https://github.com/shubh3695/ChatBot-Slack/blob/master/Untitled.png' alt="Demo"/>
 </p>
