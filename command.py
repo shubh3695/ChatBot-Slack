@@ -1,5 +1,5 @@
 from random import randint
-import calculator, cricket, fixer, wordmeaning, news, moviedets, lyric, weathering
+import calculator, cricket, fixer, wordmeaning, news, moviedets, lyric, weathering, dialogflow
 
 '''
 
@@ -23,6 +23,19 @@ class Command(object):
             "lyrics": self.lyrics,
             "weather": self.weather
         }
+        self.info = {
+            "jump" : "Just to check if I'm alive! ;)",
+            "help" : "Get all possible commands!",
+            "hi" : "Wish me Hi!",
+            "calculate": "Calculate some arithmetic query!",
+            "cricscore": "Get live cricket score!",
+            "currency": "Get currency conversion!",
+            "meaning" : "Find meaning of some word/phrase",
+            "getnews": "Get news search",
+            "imdb": "Get latest movies, tv series or search a movie",
+            "lyrics": "Lyrics to a song you like!",
+            "weather": "Weather to your searched location!"
+        }
  
     def handle_command(self, user, command):
         response = "<@" + user + ">: "
@@ -30,19 +43,23 @@ class Command(object):
         if self.commander[0] in self.commands:
             response += self.commands[self.commander[0]]()
         else:
-            response += "Sorry I don't understand the command: " + self.commander[0] + ". "
-            response += "Try @py3bot help for all commands."
+            res = dialogflow.AITalks().converse(' '.join(self.commander))
+            if res == "":
+                response += "Sorry I don't understand the command: " + self.commander[0] + ". "
+                response += "Try @py3bot help for all commands."
+            else:
+                response += res
         return response
     def hi(self):
         m1, m2 = 0, 2
         responses = ["Hey Man, how are you", "Hi, its Py3Bot", "Yep! Here to help"]
-        return responses[randint(m1, m2)] +". Try '@py3bot all' for all commands."
+        return responses[randint(m1, m2)] +". Try '@py3bot help for all commands."
     def jump(self):
         return "Beep Bop! Py3Bot will make you jump jump."
     def help(self):
-        response = "Currently I support the following commands:\r\n"
+        response = "\nCurrently I support the following commands:\r\n"
         for command in self.commands:
-            response += command + "\r\n"
+            response += command + ": "+self.info[command]+"\r\n"
         return response
     def calculate(self):
         if len(self.commander) != 4:

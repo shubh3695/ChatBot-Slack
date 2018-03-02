@@ -16,8 +16,9 @@ A Slack based Chat Bot operating different Custom Entertainment Functions
 6. Get Song Lyrics Example: @Py3bot lyrics maroon 5 , wait <br>
 7. Location Weather Example: @Py3bot weather Lucknow<br>
 8. Currency Conversion Example: @Py3bot currency USD to EUR<br>
-9. For all commands ExampleL @Py3bot help<br>
-10. More to come...Interactive AI, Youtube downloader etc.
+9. For all commands Example @Py3bot help<br>
+10.An Interactive AI based on Google DialogFlow (api.ai) for some small talks!<br>
+11. Much more to come soon...
 <br>
 <br>
 <p style="text-align:center;">
