@@ -9,7 +9,7 @@ import json
 
 class News(object):
     def __init__(self):
-        file = open("/home/ssaxena36/Desktop/apiKey.txt", "r")
+        file = open("/home/ssaxena36/Desktop/Slack-Bot/apiKey.txt", "r")
         self.apiKey = (file.read().strip())
 
     def getNews(self, word):

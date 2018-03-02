@@ -13,7 +13,7 @@ class Bot(object):
         '''
         Ensuring Safety of API Token
         '''
-        file = open("/home/ssaxena36/Desktop/key.txt", "r")
+        file = open("/home/ssaxena36/Desktop/Slack-Bot/key.txt", "r")
         self.slack_client = SlackClient(file.read().strip())
         self.bot_name = "py3bot"
         self.bot_id = self.get_bot_id()
